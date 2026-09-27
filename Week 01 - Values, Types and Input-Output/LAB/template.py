@@ -16,24 +16,11 @@ Delete these instructions as you replace them with your code.
 label = input("Label: ")
 used = float(input("Used: "))
 total = float(input("Total: "))
-print("=" * 34)
-print(f"RECORD CHECK  -  {label}")
-print("=" * 34)
-print(f"Used: {used:>10.2f}")
-print(f"Total:{total:>10.2f}")
-print("=" * 34)
 
 # ================================================================== PROCESS
-# 2. Work out what you were NOT given.       [Typical and above]
-#
-#    - difference : how far the first is from the second
-#    - percent    : the first as a percentage of the second
-#
-#    Do not type the answers. Calculate them.
 
-difference = 0.0   # 
-percent = 0.0      # 
-
+difference = total - used
+percentage = (used / total) * 100
 
 # =================================================================== OUTPUT
 # 3. Print the report.
@@ -45,13 +32,13 @@ percent = 0.0      #
 #    Useful:   f"{value:>10.2f}"    right-aligned, 2 decimal places
 #              f"{value:>+10.2f}"   the same, but always shows the sign
 
-print()
 print("=" * 34)
-print(f"  RECORD CHECK  -  {label}")
+print(f"RECORD CHECK  -  {label}")
 print("=" * 34)
-
-# : your report lines go here
-
+print(f"Used: {used:>12.2f}")
+print(f"Total:{total:>12.2f}")
+print(f"Difference: {difference:+.2f}")
+print(f"Percentage: {percentage:.2f}%")
 print("=" * 34)
 
 
