@@ -1,3 +1,3 @@
 # CST1510
-Middlesex University Dubai
+Middlesex University Dubai\n
 Module: CST1510
