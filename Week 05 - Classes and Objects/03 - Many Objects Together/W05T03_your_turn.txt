@@ -1,0 +1,4 @@
+Abdullah,59,100
+Irtaza,84,100
+Uzair,95,100
+Saad,67,100
