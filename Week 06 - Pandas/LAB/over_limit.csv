@@ -1,0 +1,3 @@
+label,value,limit,percent,over,status,over_limit_rows
+R-002,120,100,120.0,True,OVER LIMIT,True
+R-005,101,100,101.0,True,OVER LIMIT,True

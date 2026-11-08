@@ -1,0 +1,7 @@
+hostname,used_gb,total_gb,host_location,user_limit
+srv-01,97,256,India,500
+srv-02,154,256,Pakistan,500
+srv-03,182,512,United Kingdom,1000
+srv-04,392,512,USA,1000
+srv-05,484,512,China,1000
+srv-06,600,512,Russia,1000
