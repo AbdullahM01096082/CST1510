@@ -32,21 +32,3 @@ df.to_csv("my_df_save.csv", index=False)
 df["status"].value_counts().plot(kind="bar")
 plt.title("Status Counts")
 plt.show()
-
-# ================================================================== OUTPUT
-# 3. Print the DataFrame.
-#
-#    Threshold : print it as-is, with the percent column.
-#    Typical   : also filter to show only the rows that are not "OK", using a
-#                boolean condition in [] - not a loop.
-#    Excellent : also group by "status" and print a count per group, save
-#                the full DataFrame to a new CSV with .to_csv(), and save
-#                one bar chart of the counts per status.
-
-
-
-# ==========================================================================
-# 4. Before you finish:
-#    [ ] Run it and check the percent/status columns by hand for one row
-#    [ ] Check you used & (not "and") if you combined more than one condition
-#    [ ] Check every column your code refers to actually exists - watch case

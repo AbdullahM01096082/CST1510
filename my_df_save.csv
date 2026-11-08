@@ -1,0 +1,7 @@
+hostname,used_gb,total_gb,host_location,user_limit,percent,status
+srv-01,97,256,India,500,37.890625,OK
+srv-02,154,256,Pakistan,500,60.15625,OK
+srv-03,182,512,United Kingdom,1000,35.546875,OK
+srv-04,392,512,USA,1000,76.5625,OK
+srv-05,484,512,China,1000,94.53125,WARNING
+srv-06,600,512,Russia,1000,117.1875,OVER LIMIT
